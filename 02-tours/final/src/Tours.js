@@ -1,6 +1,9 @@
 import React from 'react';
 import Tour from './Tour';
 const Tours = ({ tours, removeTour }) => {
+
+  const{id} = tours
+  console.log(id)
   return (
     <section>
       <div className="title">
